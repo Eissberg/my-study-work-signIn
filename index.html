@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign In</title>
+</head>
+<body>
+
+    <div class="main d-flex">
+        <div class="inner d-flex">
+            <form class="form" action="#">
+                <div class="form-close">&times;</div>
+                <div class="form-header">
+                    Member Sign In
+                </div>
+                <div class="form-header-sign">
+                    Not a member yet? 
+                    <a href="#" class="form-header-sign-link">Sign up now</a>
+                </div>
+                <div class="form-action">
+                    <div class="input">
+                        <label class="label d-flex" for="username">
+                            <img src="img/user_pic.png" alt="user picture" class="user-picture">
+                            <input id="username" type="text" value="     Username / Email" aria-label= "Username / Email" class="form-action-input-user">
+                        </label> 
+                    </div>
+                    <div class="input">
+                        <label class="label d-flex" for="password">
+                            <img src="img/lock_pick.png" alt="lock pickture" class="lock-picture">
+                            <input id="password" type="text" value="     Password" 
+                            aria-label="Passport"
+                            class="form-action-input-password">
+                            <img src="img/Group.png" alt="group" class="eye">
+                        </label>
+                    </div>
+                    <div class="form-action-sign-in d-flex">
+                        <div >
+                            <button class="form-action-sign-in-button">Sign In</button>
+                        </div>
+                        <div class="form-action-sign-in-help">
+                            <div class="form-action-sign-in-remember">
+                                <img src="img/Vector1.png" alt="checked" id="rememberMe">
+                                <!-- <input id="rememberMe" type="radio"> -->
+                                <label for="rememberMe">Remember me</label>
+                            </div>
+                            <div class="form-action-sign-in-forgot">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
